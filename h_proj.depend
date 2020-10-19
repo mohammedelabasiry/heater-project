@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1595026155 source:c:\users\pc\desktop\h_proj\adc.c
+	"adc.h"
+	"main.h"
+
+1595067599 c:\users\pc\desktop\h_proj\adc.h
+	<pic16f877a.h>
+
+1595062341 source:c:\users\pc\desktop\h_proj\coller.c
+	"gpio.h"
+	"Coller.h"
+	"Heater.h"
+	"setting_temp.h"
+	"system_modes.h"
+	"Temp_Sensor.h"
+	"port.h"
+
+1595066928 c:\users\pc\desktop\h_proj\gpio.h
+	"Main.h"
+
+1595064024 c:\users\pc\desktop\h_proj\coller.h
+	"gpio.h"
+
+1595064024 c:\users\pc\desktop\h_proj\heater.h
+	"gpio.h"
+
+1595066925 c:\users\pc\desktop\h_proj\setting_temp.h
+	"PB.h"
+	"system_modes.h"
+	"ssd.h"
+
+1594979412 c:\users\pc\desktop\h_proj\pb.h
+
+1595061371 c:\users\pc\desktop\h_proj\system_modes.h
+	"PB.h"
+	"setting_temp.h"
+
+1595064024 c:\users\pc\desktop\h_proj\ssd.h
+
+1595066923 c:\users\pc\desktop\h_proj\temp_sensor.h
+	"adc.h"
+
+1595026155 source:c:\users\pc\desktop\h_proj\gpio.c
+	"gpio.h"
+	<pic16f877a.h>
+	"main.h"
+
+1595062341 source:c:\users\pc\desktop\h_proj\heater.c
+	"Heater.h"
+	"system_modes.h"
+	"setting_temp.h"
+	"Temp_Sensor.h"
+	"Coller.h"
+	"port.h"
+
+1595062341 source:c:\users\pc\desktop\h_proj\heating_led.c
+	"Heating_led.h"
+	"gpio.h"
+	"Coller.h"
+	"Heater.h"
+	"port.h"
+
+1595064024 c:\users\pc\desktop\h_proj\heating_led.h
+
+1594983179 source:c:\users\pc\desktop\h_proj\main.c
+	<pic16f877a.h>
+	"timer0.h"
+	"Temp_Sensor.h"
+	"ssd.h"
+	"gpio.h"
+	"system_modes.h"
+	"setting_temp.h"
+	"Coller.h"
+	"Heater.h"
+	"Heating_led.h"
+	"PB.h"
+
+1595066923 c:\users\pc\desktop\h_proj\timer0.h
+
+1595029851 source:c:\users\pc\desktop\h_proj\pb.c
+	"PB.h"
+	"gpio.h"
+	"port.h"
+
+1594996574 source:c:\users\pc\desktop\h_proj\setting_temp.c
+	"setting_temp.h"
+
+1595062341 source:c:\users\pc\desktop\h_proj\ssd.c
+	"ssd.h"
+	"gpio.h"
+	"utilities.h"
+	"system_modes.h"
+	"port.h"
+
+1592473372 c:\users\pc\desktop\h_proj\utilities.h
+
+1594996573 source:c:\users\pc\desktop\h_proj\system_modes.c
+	"system_modes.h"
+
+1594996574 source:c:\users\pc\desktop\h_proj\temp_sensor.c
+	"Temp_Sensor.h"
+	"gpio.h"
+	"adc.h"
+	"ssd.h"
+	"utilities.h"
+	"system_modes.h"
+
+1592473372 source:c:\users\pc\desktop\h_proj\utilities.c
+	"utilities.h"
+
+1595026182 c:\users\pc\desktop\h_proj\main.h
+
+1595026155 source:c:\users\pc\desktop\h_proj\timer0.c
+	"timer0.h"
+	"Temp_Sensor.h"
+	"ssd.h"
+	"gpio.h"
+	"system_modes.h"
+	"setting_temp.h"
+	"Coller.h"
+	"Heater.h"
+	"Heating_led.h"
+	"PB.h"
+	"main.h"
+	<pic16f877a.h>
+
+1595029253 c:\users\pc\desktop\h_proj\port.h
+	"Main.h"
+

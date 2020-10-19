@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="h_proj" />
+		<Option pch_mode="2" />
+		<Option compiler="sdcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/h_proj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--debug" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/h_proj" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="sdcc" />
+				<Compiler>
+					<Add option="--opt-code-size" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="Coller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Coller.h" />
+		<Unit filename="Heater.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Heater.h" />
+		<Unit filename="Heating_led.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Heating_led.h" />
+		<Unit filename="PB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PB.h" />
+		<Unit filename="Temp_Sensor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Temp_Sensor.h" />
+		<Unit filename="adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adc.h" />
+		<Unit filename="gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gpio.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.h" />
+		<Unit filename="setting_temp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="setting_temp.h" />
+		<Unit filename="ssd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ssd.h" />
+		<Unit filename="system_modes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="system_modes.h" />
+		<Unit filename="timer0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timer0.h" />
+		<Unit filename="utilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utilities.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
